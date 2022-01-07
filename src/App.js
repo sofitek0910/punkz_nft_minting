@@ -164,11 +164,11 @@ function App() {
         </header>
 
         <div className="hero-block">
-            <img className="hero-image" src="./assets/images/landing_video1.gif"/>
+            <img className="hero-image wow rubberBand" src="./assets/images/landing_video1.gif"/>
         </div>
         <section className="welcome-section content-section">
             <div className="row d-flex flex-center">
-                <div className="col-md-8 col-sm-12">
+                <div className="col-md-8 col-sm-12 wow bounceInLeft">
                     <div className="title-font welcome-font">
                         WELCOME TO THE DEAD PUNKZ
                     </div>
@@ -182,12 +182,12 @@ function App() {
                     </div>
                 </div>
                 <div className="col-md-4 col-sm-12">
-                    <img className="width-100" src="./assets/images/cat.gif"/>
+                    <img className="cat-gif width-100 wow bounceInRight" src="./assets/images/cat.gif"/>
                 </div>
             </div>
         </section>
 
-        <section className="buy-section content-section">
+        <section className="buy-section content-section wow fadeInRight">
             <div className="title-font">BUY</div>
             <div className="row d-flex flex-center">
                 <div className="col-md-8 col-sm-12">
@@ -205,10 +205,10 @@ function App() {
             </div>
         </section>
 
-        <section className="spec-section content-section">
-            <div className="title-font">TEH SPECS</div>
+        <section className="spec-section content-section  wow fadeInRight">
+            <div className="title-font">THE SPECS</div>
             <div className="row d-flex flex-center">
-                <div className="col-md-9 col-sm-12">
+                <div className="col-lg-9 col-md-8 col-sm-12">
                     <div className="content-font2 specs-content-text">
                         Each SPOOKY SKELLY PUNK is unique and programmatically generated from over 200 possible traits, including headwear, mouth pieces, glasses, 
                         and more. All SPOOKY SKELLYS have abilities and traits that make some rarer than others. Every Spooky Skelly is unique and sick. 
@@ -217,7 +217,7 @@ function App() {
                         You must be signed into you rmetamask wallet to enter the members club.
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-12 text-center">
+                <div className="col-lg-3 col-md-4 col-sm-12 text-center">
 					<div className="row">
 						<div className="col-md-12 col-sm-6">
 							<a href="#">
@@ -235,15 +235,18 @@ function App() {
         </section>
 
         <section className="roadmap-section content-section">
-            <div className="title-font">ROADMAP</div>
-            <div className="content-font2">
-                Our Roadmap catalogs a handful of future utilities and benefits we wish to bring 
-                our members as our community develops. Glance over the phases to see a few of the 
-                concepts we wish to bring to light and deliver as our project grows. We are constantly 
-                integrating new ideas and will evolve to meet the needs of our community to make 
-                sure we provide the top meta verse experience
-            </div>
-            <div className="row d-flex roadmap-block">
+			<div className="wow fadeInRight">
+				<div className="title-font">ROADMAP</div>
+				<div className="content-font2">
+					Our Roadmap catalogs a handful of future utilities and benefits we wish to bring 
+					our members as our community develops. Glance over the phases to see a few of the 
+					concepts we wish to bring to light and deliver as our project grows. We are constantly 
+					integrating new ideas and will evolve to meet the needs of our community to make 
+					sure we provide the top meta verse experience
+				</div>
+			</div>
+            
+            <div className="row d-flex roadmap-block wow zoomInUp">
                 <div className="col-md-6 col-sm-12 text-center">
                     <img className="width-100" src="./assets/images/Roadmap_image.png"/>
                 </div>
@@ -375,28 +378,28 @@ function App() {
             </div>
         </section>
 
-		<section className="spec-section content-section">
+		<section className="spec-section content-section wow rollIn">
             <div className="title-font">TEAM</div>
             <div className="row d-flex flex-center">
-                <div className="col-sm-3">
+                <div className="col-md-3 col-sm-6">
 					<img className="width-100 team-image" src="./assets/images/member1.png"/>
 					<div className="member-name">
 						coordinate
 					</div>
                 </div>
-				<div className="col-sm-3">
+				<div className="col-md-3 col-sm-6">
 					<img className="width-100 team-image" src="./assets/images/member2.png"/>
 					<div className="member-name">
 						don
 					</div>
                 </div>
-				<div className="col-sm-3">
+				<div className="col-md-3 col-sm-6">
 					<img className="width-100 team-image" src="./assets/images/member3.png"/>
 					<div className="member-name">
 						trill
 					</div>
                 </div>
-				<div className="col-sm-3">
+				<div className="col-md-3 col-sm-6">
 					<img className="width-100 team-image" src="./assets/images/member4.png"/>
 					<div className="member-name">
 						steven
@@ -405,7 +408,7 @@ function App() {
             </div>
         </section>
 
-		<section className="community-section content-section">
+		<section className="community-section content-section wow fadeInUp">
             <div className="title-font">JOIN OUR COMMUNITY</div>
             <div className="content-font1">
 				Become a part of the community. join our discord for exclusive news, giveaways, fun games,
@@ -421,7 +424,7 @@ function App() {
 			</div>
         </section>
 
-		<section className="bottom-section">
+		<section className="bottom-section wow zoomIn">
 			<div className="row d-flex flex-center">
                 <div className="col-md-4 col-sm-12">
 					<div className="subscribe">
@@ -434,8 +437,8 @@ function App() {
 						</div>
 					</div>
                 </div>
-				<div className="col-md-4 col-sm-12">
-					<img className="width-100" src="./assets/images/logo.png"/>
+				<div className="col-md-4 col-sm-12 bottom-logo-block">
+					<img className="width-100 bottom-logo" src="./assets/images/logo.png"/>
                 </div>
 				<div className="col-md-4 col-sm-12">
 					<div className="bottom-icon-section">

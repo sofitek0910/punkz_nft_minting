@@ -137,6 +137,7 @@ nav {
     font-size: 65px;
     font-family: megrimfont;
     color: red;
+    text-shadow: 0 0 5px #fa07138e, 0 0 10px #fa07138e, 0 0 15px #fa07138e;
     margin-bottom: 50px;
 }
 
@@ -361,13 +362,81 @@ nav {
         box-shadow: 1px 5px 10px #495057;
         border-radius: 5px;
         padding-bottom: 0;
+        z-index: 10000;
     }
     .list {
         float: none;
         padding-right: 27px!important;
+    } 
+}
+
+@media screen and (max-width: 900px){
+    .title-font {
+        font-size: 50px!important;
+    }
+
+    .content-font1 {
+        font-size: 14px;
+    }
+    
+    .content-font2 {
+        font-size: 11px;
+    }
+
+    .welcome-font {
+        font-size: 35px!important;
     }
 }
 
-@media screen and (max-width: 1060px){
-    
+@media screen and (max-width: 768px){
+    .cat-gif, .mint-btn, .accordion {
+        margin-top: 30px;
+    }
+
+    .bottom-logo-block {
+        width: 70%;
+        margin: 30px auto;
+    }
+
+    .subscribe {
+        width: 100%;
+    }
+
+    .bottom-icon-block {
+        float: none;
+    }
+
+    .bottom-icon-section {
+        float: none;
+        height: 80px;
+        text-align: center;
+    }
+
+    .bottom-text-block {
+        float: none;
+        text-align: center;
+    }
+
+    .logo-image {
+        width: 50%;
+    }
 }
+
+@media screen and (max-width: 568px){
+    .title-font {
+        font-size: 40px!important;
+    }
+
+    .content-font1 {
+        font-size: 14px;
+    }
+    
+    .content-font2 {
+        font-size: 11px;
+    }
+
+    .welcome-font {
+        font-size: 25px!important;
+    }
+}
+
