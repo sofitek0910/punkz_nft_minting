@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'megrimfont';
-    src: url('../fonts/GABRWFFR.TTF');
+    src: url('../fonts/Act_Of_Rejection.ttf');
 }
 
 .megrim-font {
@@ -9,7 +9,7 @@
 
 @font-face {
     font-family: 'Rubik';
-    src: url('../fonts/Rubik-VariableFont_wght.ttf');
+    src: url('../fonts/PressStart2P-Regular.ttf');
 }
 
 @font-face {
@@ -62,7 +62,7 @@ body {
 } */
 
 .logo-image {
-    margin-left: -30px;
+    margin-left: 50px;
 }
 
 nav {
@@ -77,8 +77,8 @@ nav {
 }
 
 .items {
-    margin-right: 20px;
-    font-size: 28px;
+    margin-right: 35px;
+    font-size: 40px;
     font-family: megrimfont;
     text-transform: uppercase;
     color: red;
@@ -88,11 +88,15 @@ nav {
 .menu-btn {
     display: none;
     position: absolute;
-    right: 10px;
-    top: 7px;
-    padding: 5px;
-    color: #000;
-    font-size: 18px;
+    right: 30px;
+    top: 70px;
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #fff;
+    font-family: rubik;
+    font-size: 24px;
 }
 
 .width-100 {
@@ -101,10 +105,14 @@ nav {
 
 .menu-block {
     padding-bottom: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: absolute;
+    right: 30px;
+    top: 120px;
+}
+
+.navbar-block {
     border-bottom: 1px solid #111;
+    padding-bottom: 30px;
 }
 
 .hero-block {
@@ -116,30 +124,42 @@ nav {
     width: 100%;
 }
 
+.welcome-font {
+    font-size: 43px!important;
+}
+
 .content-section {
     padding: 60px 100px 60px 100px;
     border-bottom: 1px solid #111;
 }
 
 .title-font {
-    font-size: 35px;
+    font-size: 65px;
     font-family: megrimfont;
     color: red;
     margin-bottom: 50px;
 }
 
 .content-font1 {
-    font-size: 24px;
+    font-size: 18px;
     font-family: Rubik;
-    letter-spacing: 2px;
+    letter-spacing: -1px;
     color: #fff;
 }
 
 .content-font2 {
-    font-size: 22px;
+    font-size: 14.5px;
     font-family: Rubik;
     letter-spacing: 0px;
     color: #fff;
+}
+
+.club-btn {
+    margin-top: 20px;
+}
+
+.phase10 {
+    font-size: 11.5px;
 }
 
 .roadmap-block {
@@ -154,7 +174,7 @@ nav {
     background: #000!important;
     text-transform: uppercase;
     padding: 10px 5px;
-    font-size: 20px!important;
+    font-size: 13px!important;
     color: #fff!important;
     border-bottom: 1px solid #111;
     cursor: pointer;
@@ -177,6 +197,7 @@ nav {
 
 .accordion-body {
     color: #fff;
+    font-size: 12px;
 }
 
 .accordion-collapse {
@@ -185,26 +206,20 @@ nav {
 
 .mint-btn {
     font-size: 32px;
-    padding: 7px 30px;
-    border-radius: 5px;
+    padding: 7px 35px;
+    border-radius: 7px;
     background-color: red;
     color: #fff;
+    border: none;
 }
 
-.specs-btn {
-    font-size: 26px;
-    padding: 7px 30px;
-    border-radius: 5px;
-    background-color: red;
-    color: #fff;
+.specs-content-text {
+    letter-spacing: -2px;
 }
 
 .rarity-btn {
     margin-bottom: 15px;
-}
-
-.club-btn {
-    font-size: 18px!important;
+    padding: 20px 30px;
 }
 
 .team-image {
@@ -225,26 +240,37 @@ nav {
 }
 
 .discord-button {
-    font-size: 32px;
-    padding: 10px 30px;
+    font-size: 22px;
+    padding: 20px 30px;
     background-color: red;
     color: #fff;
-    border-radius: 8px;
+    border-radius: 10px;
     border: none;
+    letter-spacing: -1px;
 }
 
 .smart-contract {
     margin-left: 50px;
     color: #fff;
-    font-size: 26px;
+    font-size: 17px;
+    letter-spacing: -1.5px;
+}
+
+.subscribe {
+    width: 80%;
+}
+
+.subscribe-title {
+    color: #fff;
+    font-family: megrimfont;
+    font-size: 20px;
 }
 
 .form-control {
     display: block;
-    width: 100%;
     min-height: calc(1.5em + .75rem + 2px);
-    padding: .575rem .75rem;
-    font-size: 1rem;
+    padding: 5px 10px;
+    font-size: 12px;
     font-weight: 400;
     line-height: 1.5;
     color: #495057;
@@ -254,7 +280,6 @@ nav {
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-    border-radius: 52px;
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
@@ -268,25 +293,49 @@ nav {
 .form-control:focus {
     color: #495057;
     background-color: #fff;
-    border-color: #f9a826;
+    border-color: red;
     outline: 0;
     box-shadow: none
 }
 
 .border-rad {
-    border-top-right-radius: 28px;
-    border-bottom-right-radius: 28px;
     color: #fff;
-    background-color: #f9a826;
-    border-color: #f9a826
+    background-color: red;
+    border-color: red
 }
 
 .border-rad:hover {
-    background-color: #f9a826;
-    border-color: #f9a826
+    background-color: red;
+    border-color: red
 }
 
-@media screen and (max-width: 768px){
+.bottom-section {
+    padding: 60px 40px 60px 100px;
+}
+
+.bottom-icon-block {
+    float: right;
+}
+
+.bottom-icon-section {
+    height: 120px;
+}
+
+.bottom-text-block {
+    color: #fff;
+    font-size: 12px;
+    font-family: megrimfont;
+    float: right;
+}
+
+@media screen and (max-width: 1220px){
+    .items {
+        font-size: 33px;
+        margin-right: 23px;
+    }
+}
+
+@media screen and (max-width: 1060px){
     .list {
         flex-direction: column;
         height: auto;
@@ -305,4 +354,20 @@ nav {
     .menu-btn {
         display: block;
     }
+    .menu-block {
+        background-color: #000;
+        border: 1px solid #111;
+        right: 5px;
+        box-shadow: 1px 5px 10px #495057;
+        border-radius: 5px;
+        padding-bottom: 0;
+    }
+    .list {
+        float: none;
+        padding-right: 27px!important;
+    }
+}
+
+@media screen and (max-width: 1060px){
+    
 }
