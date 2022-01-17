@@ -125,8 +125,8 @@ function App() {
     setSpecsHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()-50);
     setRoadmapHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height());
     setCommunityHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height()+$(".roadmap-section").height()+$(".team-section").height()+250);
-    console.log("scroll--->", window.scrollY)
-    console.log('scroll event', $(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height());
+    // console.log("scroll--->", window.scrollY)
+    // console.log('scroll event', $(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height());
   }
   
   useEffect(() => {
@@ -160,6 +160,24 @@ function App() {
                 <a href="#">
                     <img className="top-icon" src="./assets/images/twitter_red.png"/>
                 </a>
+                {blockchain.account == null && blockchain.account == undefined ? 
+                  <button className="connect-button megrim-font"
+                      onClick={(e) => {
+                        e.preventDefault();
+                        dispatch(connect());
+                        getData();
+                      }
+                    }
+                  >
+                    CONNECT
+                  </button>:
+                  <span className="connect-button megrim-font">
+                    {String(blockchain.account).substring(0, 4) +
+                      "..." +
+                      String(blockchain.account).substring(38)
+                    }
+                  </span>
+                }
             </div>
         </div>
         
@@ -232,7 +250,17 @@ function App() {
                     </div>
                 </div>
                 <div className="col-md-4 col-sm-12 text-center">
-                    <button className="mint-btn rubik-font">MINT</button>
+                    <button 
+                        className="mint-btn rubik-font"
+                        disabled={claimingNft ? 1 : 0}
+                        onClick={(e) => {
+                            e.preventDefault();
+                            claimNFTs();
+                            getData();
+                        }}
+                    >
+                    {claimingNft ? "MINTING" : "MINT"}
+                    </button>
                 </div>
             </div>
         </section>
