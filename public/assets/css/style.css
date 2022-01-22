@@ -73,6 +73,88 @@ html {
     color: red;
 }
 
+/* PRELOADER */
+.preloader {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 11;
+    text-align: center;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    overflow: hidden;
+    transition-delay: 0.6s;
+  }
+  .preloader * {
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+    transition-duration: 500ms;
+    -webkit-transition-duration: 500ms;
+    transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+    -webkit-transition-timing-function: cubic-bezier(0.86, 0, 0.07, 1);
+  }
+  .preloader .layer {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(../images/loading.gif);
+    transition-delay: 0.3s;
+  }
+  .preloader .inner {
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+    margin: 0 auto;
+  }
+  .preloader .inner span {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .preloader .inner figure {
+    display: block;
+    margin-bottom: 20px;
+    transition-delay: 0.1s;
+  }
+  .preloader .inner figure img {
+    height: 40px;
+    transform: translateX(-7px);
+  }
+  
+  /* PAGE LOADED */
+  .page-loaded .preloader {
+    left: -100%;
+  }
+  
+  .page-loaded .preloader .inner figure {
+    opacity: 0;
+    transform: scale(1.5);
+  }
+  
+  .page-loaded .preloader .inner span {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  
+  .page-loaded .preloader .layer {
+    left: -100%;
+  }
+
 .nav-item:hover {
     color: red;
 }
@@ -112,6 +194,7 @@ html {
     border-radius: 5px;
     padding: 7px 20px;
     border: 1px solid red;
+    margin-right: 15px;
     margin-left: 15px;
 }
 
@@ -147,7 +230,7 @@ nav {
     display: none;
     position: absolute;
     right: 30px;
-    top: 70px;
+    top: 90px;
     background-color: red;
     border: none;
     border-radius: 5px;
@@ -592,4 +675,5 @@ nav {
         font-size: 10px!important;
     }
 }
+
 

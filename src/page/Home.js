@@ -3,8 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 import $ from 'jquery';
 import { connect } from "../redux/blockchain/blockchainActions";
 import { fetchData } from "../redux/data/dataActions";
-import * as s from "../styles/globalStyles";
-import styled from "styled-components";
+import swal from "sweetalert";
 import Typewriter from "typewriter-effect";
 
 function App() {
@@ -54,7 +53,7 @@ function App() {
     console.log("Cost: ", totalCostWei);
     console.log("Gas limit: ", totalGasLimit);
     console.log("smartcontract--->", blockchain.smartContract)
-    setFeedback(`Minting your ${CONFIG.NFT_NAME}...`);
+    // swal(`Minting your ${CONFIG.NFT_NAME}...`, "", "info");
     setClaimingNft(true);
     blockchain.smartContract.methods
       .publicSaleMint()
@@ -66,13 +65,13 @@ function App() {
       })
       .once("error", (err) => {
         console.log(err);
-        setFeedback("Sorry, something went wrong please try again later.");
+        swal("Sorry, something went wrong please try again later.", "", "error");
         setClaimingNft(false);
       })
       .then((receipt) => {
         console.log(receipt);
-        setFeedback(
-          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`
+        swal(
+          `WOW, the ${CONFIG.NFT_NAME} is yours! go visit Opensea.io to view it.`, "", "success"
         );
         setClaimingNft(false);
         dispatch(fetchData(blockchain.account));
@@ -149,6 +148,12 @@ function App() {
 
   return (
     <div>
+        <div className="preloader">
+            <div className="layer"></div>
+            <div className="inner">
+            {/* <figure> <img src="./assets/images/preloader1.gif" alt="Image"/> </figure> */}
+            <span>Site Loading</span> </div>
+        </div>
         <div className="top-section">
             <div className="top-icon-block">
                 <a href="#">
@@ -323,7 +328,7 @@ function App() {
             
             <div className="row d-flex roadmap-block wow zoomInUp">
                 <div className="col-md-6 col-sm-12 text-center">
-                    <img className="width-100" src="./assets/images/Roadmap_image.png"/>
+                    <img className="width-100" src="./assets/images/roadmap.jpeg"/>
                 </div>
                 <div className="col-md-6 col-sm-12">
 					<div className="accordion" id="accordionExample">
