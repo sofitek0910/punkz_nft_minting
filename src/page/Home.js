@@ -4,6 +4,7 @@ import $ from 'jquery';
 import { connect } from "../redux/blockchain/blockchainActions";
 import { fetchData } from "../redux/data/dataActions";
 import swal from "sweetalert";
+import { Link } from 'react-router-dom'
 import Typewriter from "typewriter-effect";
 
 function App() {
@@ -196,7 +197,7 @@ function App() {
                             <li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
                             <li className="items"><a className="nav-item" href="#team">Team</a></li>
                             <li className="items"><a href="#"></a>gallery</li>
-                            <li className="items"><a href="#"></a>utility</li>
+                            <li className="items"><Link className="nav-item" to="/utility">utility</Link></li>
                             <li className="items"><a href="#"></a>members</li>
                         </ul>
                     </div>
@@ -206,7 +207,7 @@ function App() {
         </header>
 
         <div className="hero-block">
-            <img className="hero-image wow rubberBand" src="./assets/images/landing_video1.gif"/>
+            <img className="hero-image wow rubberBand" src="./assets/images/hero.jpeg"/>
         </div>
         <section className="welcome-section content-section">
             <div className="row d-flex flex-center">
@@ -223,7 +224,7 @@ function App() {
                                     autoStart: true,
                                     loop: true,
                                     deleteSpeed: 5,
-                                    delay: 20
+                                    delay: 10
                                 }}
                             />
                         }
@@ -248,7 +249,7 @@ function App() {
                                     autoStart: true,
                                     loop: true,
                                     deleteSpeed: 5,
-                                    delay: 20
+                                    delay: 10
                                 }}
                             />
                         }
@@ -283,7 +284,7 @@ function App() {
                                     autoStart: true,
                                     loop: true,
                                     deleteSpeed: 5,
-                                    delay: 20
+                                    delay: 10
                                 }}
                             />
                         }
@@ -319,7 +320,7 @@ function App() {
                                 autoStart: true,
                                 loop: true,
                                 deleteSpeed: 5,
-                                delay: 20
+                                delay: 10
                             }}
                         />
                     }
@@ -340,7 +341,9 @@ function App() {
 							</h2>
 							<div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is roadmap answer for intiation one
+                  WELCOME TO DEAD PUNKZ.PRESALE &
+                  MINT DATE ANNOUNCED FOR THE
+                  SPOOKY SKELLY PUNKZ
 								</div>
 							</div>
 						</div>
@@ -352,7 +355,8 @@ function App() {
 							</h2>
 							<div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 2.
+                  ALL SPOOKY SKELLY PUNKS ARE
+                  REVEALED TO HOLDERS
 								</div>
 							</div>
 						</div>
@@ -364,7 +368,8 @@ function App() {
 							</h2>
 							<div id="collapse3" className="accordion-collapse collapse rubik-font" aria-labelledby="heading3" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 3.
+                  1993 Vamp Punkz airdropped to 
+                  random Spooky Skelly Punk holders
 								</div>
 							</div>
 						</div>
@@ -376,7 +381,8 @@ function App() {
 							</h2>
 							<div id="collapse4" className="accordion-collapse collapse rubik-font" aria-labelledby="heading4" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 4.
+                  Reveal of presale and mint date 
+                  for DEAD PUNK Zombies 
 								</div>
 							</div>
 						</div>
@@ -389,7 +395,8 @@ function App() {
 							</h2>
 							<div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 5.
+                  777 Mummy Punkz airdropped to 
+                  random DEAD PUNK Zombies holders
 								</div>
 							</div>
 						</div>
@@ -401,7 +408,9 @@ function App() {
 							</h2>
 							<div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 6.
+                  DeadPunkz™ official clothing line 
+                  release exclusively to DEAD PUNKZ 
+                  Holders
 								</div>
 							</div>
 						</div>
@@ -413,7 +422,10 @@ function App() {
 							</h2>
 							<div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 7.
+                  Custom Dead Punk CREATOR, create 
+                  a DeadPunk and gain cool new 
+                  traits and additions to your Dead
+                  Punk
 								</div>
 							</div>
 						</div>
@@ -425,7 +437,9 @@ function App() {
 							</h2>
 							<div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 8.
+                  Exclusive Festival for all holders 
+                  of DeadPunkz, with concerts, food, 
+                  celebrity appearances and more
 								</div>
 							</div>
 						</div>
@@ -437,7 +451,8 @@ function App() {
 							</h2>
 							<div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 9.
+                  Reveal and first access the beta 
+                  to DeadPunkz game
 								</div>
 							</div>
 						</div>
@@ -447,9 +462,14 @@ function App() {
 									<button className="phase-btn phase10">phase 10</button> deadverse
 								</div>
 							</h2>
-							<div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+							<div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
 								<div className="accordion-body rubik-font">
-									This is the answer for phase 10.
+                 DeadPunkz meta verse, an undead 
+                  mirror to our own with passive income 
+                  potential, real estate and job 
+                  opportunities, along with immersive 
+                  aesthetics and exclusive holder 
+                  benefits. DEADVERSE games release.
 								</div>
 							</div>
 						</div>
@@ -499,7 +519,7 @@ function App() {
                             autoStart: true,
                             loop: true,
                             deleteSpeed: 5,
-                            delay: 20
+                            delay: 10
                         }}
                     />
                 }
