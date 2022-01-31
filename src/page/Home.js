@@ -327,180 +327,180 @@ function App() {
 				</div>
 			</div>
             
-            <div className="row d-flex roadmap-block wow zoomInUp">
-                <div className="col-md-6 col-sm-12 text-center">
-                    <img className="width-100" src="./assets/images/roadmap.jpeg"/>
-                </div>
-                <div className="col-md-6 col-sm-12">
-					<div className="accordion" id="accordionExample">
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="headingOne">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
-									<button className="phase-btn">phase 1</button> initiation
-								</div>
-							</h2>
-							<div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  WELCOME TO DEAD PUNKZ.PRESALE &
-                  MINT DATE ANNOUNCED FOR THE
-                  SPOOKY SKELLY PUNKZ
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="headingTwo">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-									<button className="phase-btn">phase 2</button> reveal
-								</div>
-							</h2>
-							<div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  ALL SPOOKY SKELLY PUNKS ARE
-                  REVEALED TO HOLDERS
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading3">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
-									<button className="phase-btn">phase 3</button> vamp airdrops
-								</div>
-							</h2>
-							<div id="collapse3" className="accordion-collapse collapse rubik-font" aria-labelledby="heading3" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  1993 Vamp Punkz airdropped to 
-                  random Spooky Skelly Punk holders
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading4">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
-									<button className="phase-btn">phase 4</button> DEAD PUNKZ Z
-								</div>
-							</h2>
-							<div id="collapse4" className="accordion-collapse collapse rubik-font" aria-labelledby="heading4" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  Reveal of presale and mint date 
-                  for DEAD PUNK Zombies 
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading3">
-								<div className="accordion-button collapsed 
-								rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
-									<button className="phase-btn">phase 5</button> mummy airdrops
-								</div>
-							</h2>
-							<div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  777 Mummy Punkz airdropped to 
-                  random DEAD PUNK Zombies holders
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading6">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
-									<button className="phase-btn">phase 6</button> merch realease
-								</div>
-							</h2>
-							<div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  DeadPunkz™ official clothing line 
-                  release exclusively to DEAD PUNKZ 
-                  Holders
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading7">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
-									<button className="phase-btn">phase 7</button> customization
-								</div>
-							</h2>
-							<div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  Custom Dead Punk CREATOR, create 
-                  a DeadPunk and gain cool new 
-                  traits and additions to your Dead
-                  Punk
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading8">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
-									<button className="phase-btn">phase 8</button> dead punkz festival
-								</div>
-							</h2>
-							<div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  Exclusive Festival for all holders 
-                  of DeadPunkz, with concerts, food, 
-                  celebrity appearances and more
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading9">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
-									<button className="phase-btn">phase 9</button> deadverse beta
-								</div>
-							</h2>
-							<div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                  Reveal and first access the beta 
-                  to DeadPunkz game
-								</div>
-							</div>
-						</div>
-						<div className="accordion-item">
-							<h2 className="accordion-header" id="heading10">
-								<div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
-									<button className="phase-btn phase10">phase 10</button> deadverse
-								</div>
-							</h2>
-							<div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
-								<div className="accordion-body rubik-font">
-                 DeadPunkz meta verse, an undead 
-                  mirror to our own with passive income 
-                  potential, real estate and job 
-                  opportunities, along with immersive 
-                  aesthetics and exclusive holder 
-                  benefits. DEADVERSE games release.
-								</div>
-							</div>
-						</div>
-					</div>
-                </div>
+        <div className="row d-flex roadmap-block wow zoomInUp" data-wow-offset="0">
+            <div className="col-md-6 col-sm-12 text-center">
+                <img className="width-100" src="./assets/images/roadmap.jpeg"/>
             </div>
-        </section>
+            <div className="col-md-6 col-sm-12">
+              <div className="accordion" id="accordionExample">
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingOne">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                      <button className="phase-btn">phase 1</button> initiation
+                    </div>
+                  </h2>
+                  <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      WELCOME TO DEAD PUNKZ.PRESALE &
+                      MINT DATE ANNOUNCED FOR THE
+                      SPOOKY SKELLY PUNKZ
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="headingTwo">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      <button className="phase-btn">phase 2</button> reveal
+                    </div>
+                  </h2>
+                  <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      ALL SPOOKY SKELLY PUNKS ARE
+                      REVEALED TO HOLDERS
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading3">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                      <button className="phase-btn">phase 3</button> vamp airdrops
+                    </div>
+                  </h2>
+                  <div id="collapse3" className="accordion-collapse collapse rubik-font" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      1993 Vamp Punkz airdropped to 
+                      random Spooky Skelly Punk holders
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading4">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                      <button className="phase-btn">phase 4</button> DEAD PUNKZ Z
+                    </div>
+                  </h2>
+                  <div id="collapse4" className="accordion-collapse collapse rubik-font" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      Reveal of presale and mint date 
+                      for DEAD PUNK Zombies 
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading3">
+                    <div className="accordion-button collapsed 
+                    rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse5" aria-expanded="false" aria-controls="collapse5">
+                      <button className="phase-btn">phase 5</button> mummy airdrops
+                    </div>
+                  </h2>
+                  <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      777 Mummy Punkz airdropped to 
+                      random DEAD PUNK Zombies holders
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading6">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse6" aria-expanded="false" aria-controls="collapse6">
+                      <button className="phase-btn">phase 6</button> merch realease
+                    </div>
+                  </h2>
+                  <div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      DeadPunkz™ official clothing line 
+                      release exclusively to DEAD PUNKZ 
+                      Holders
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading7">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse7" aria-expanded="false" aria-controls="collapse7">
+                      <button className="phase-btn">phase 7</button> customization
+                    </div>
+                  </h2>
+                  <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      Custom Dead Punk CREATOR, create 
+                      a DeadPunk and gain cool new 
+                      traits and additions to your Dead
+                      Punk
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading8">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse8" aria-expanded="false" aria-controls="collapse8">
+                      <button className="phase-btn">phase 8</button> dead punkz festival
+                    </div>
+                  </h2>
+                  <div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      Exclusive Festival for all holders 
+                      of DeadPunkz, with concerts, food, 
+                      celebrity appearances and more
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading9">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse9" aria-expanded="false" aria-controls="collapse9">
+                      <button className="phase-btn">phase 9</button> deadverse beta
+                    </div>
+                  </h2>
+                  <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                      Reveal and first access the beta 
+                      to DeadPunkz game
+                    </div>
+                  </div>
+                </div>
+                <div className="accordion-item">
+                  <h2 className="accordion-header" id="heading10">
+                    <div className="accordion-button collapsed rubik-font" data-bs-toggle="collapse" data-bs-target="#collapse10" aria-expanded="false" aria-controls="collapse10">
+                      <button className="phase-btn phase10">phase 10</button> deadverse
+                    </div>
+                  </h2>
+                  <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                    <div className="accordion-body rubik-font">
+                    DeadPunkz meta verse, an undead 
+                      mirror to our own with passive income 
+                      potential, real estate and job 
+                      opportunities, along with immersive 
+                      aesthetics and exclusive holder 
+                      benefits. DEADVERSE games release.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </section>
 
 		<section id="team" className="spec-section team-section content-section wow rollIn">
             <div className="title-font">TEAM</div>
             <div className="row d-flex flex-center">
                 <div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member1.png"/>
+					<img className="width-100 team-image" src="./assets/images/member1.jpg"/>
 					<div className="member-name">
 						coordinate
 					</div>
                 </div>
 				<div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member2.png"/>
+					<img className="width-100 team-image" src="./assets/images/member2.jpg"/>
 					<div className="member-name">
 						don
 					</div>
                 </div>
 				<div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member3.png"/>
+					<img className="width-100 team-image" src="./assets/images/member3.jpg"/>
 					<div className="member-name">
 						trill
 					</div>
                 </div>
 				<div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member4.png"/>
+					<img className="width-100 team-image" src="./assets/images/member4.jpg"/>
 					<div className="member-name">
 						steven
 					</div>
@@ -535,7 +535,7 @@ function App() {
 			</div>
         </section>
 
-		<section className="bottom-section wow zoomIn">
+		<section className="bottom-section wow zoomInUp" data-wow-offset="0">
 			<div className="row d-flex flex-center">
                 <div className="col-md-4 col-sm-12">
 					<div className="subscribe">
