@@ -215,6 +215,7 @@ nav {
     list-style-type: none;
     display: flex;
     align-items: center;
+    margin-right: 30px;
 }
 
 .items {
@@ -590,6 +591,10 @@ nav {
     .welcome-font {
         font-size: 35px!important;
     }
+
+    .hero-block {
+        margin: 0 70px 50px 70px;
+    }
 }
 
 @media screen and (max-width: 768px){
@@ -627,6 +632,10 @@ nav {
 
     .smart-contract {
         font-size: 15px;
+    }
+    
+    .hero-block {
+        margin: 0 50px 20px 50px;
     }
 }
 

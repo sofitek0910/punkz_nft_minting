@@ -196,7 +196,7 @@ function App() {
                             <li className="items"><a className="nav-item" href="#buy">Buy</a></li>
                             <li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
                             <li className="items"><a className="nav-item" href="#team">Team</a></li>
-                            <li className="items"><a href="#"></a>gallery</li>
+                            {/* <li className="items"><a href="#"></a>gallery</li> */}
                             <li className="items"><Link className="nav-item" to="/utility">utility</Link></li>
                             <li className="items"><a href="#"></a>members</li>
                         </ul>
@@ -211,7 +211,7 @@ function App() {
         </div>
         <section className="welcome-section content-section">
             <div className="row d-flex flex-center">
-                <div className="col-md-8 col-sm-12 wow bounceInLeft">
+                <div className="col-md-9 col-sm-12 wow bounceInLeft">
                     <div className="title-font welcome-font">
                         WELCOME TO THE DEAD PUNKZ
                     </div>
@@ -222,7 +222,6 @@ function App() {
                                 options={{
                                     strings: `10,000 High-end, Unique, & Hand-Picked programmatically generated SPOOKY SKELLY PUNKS brought back to life and encrypted on the ERC-721 blockchain by the DEAD PUNKZ. A community that will blow every other out of the water.`,
                                     autoStart: true,
-                                    loop: true,
                                     deleteSpeed: 5,
                                     delay: 10
                                 }}
@@ -230,7 +229,7 @@ function App() {
                         }
                     </div>
                 </div>
-                <div className="col-md-4 col-sm-12">
+                <div className="col-md-3 col-sm-12">
                     <img className="cat-gif width-100 wow bounceInRight" src="./assets/images/welcome.png"/>
                 </div>
             </div>
@@ -239,7 +238,7 @@ function App() {
         <section id="buy" className="buy-section content-section wow bounceInLeft">
             <div className="title-font">BUY</div>
             <div className="row d-flex flex-center">
-                <div className="col-md-8 col-sm-12">
+                <div className="col-md-9 col-sm-12 wid">
                     <div className="content-font1">
                         {
                             scrollY > buyHeight && 
@@ -247,7 +246,6 @@ function App() {
                                 options={{
                                     strings: `Every SPOOKY SKELLY PUNK costs .1 eth.There will be a presale for whitelist members, and a public sale following a day after. There will be only 9,980 avialble, as 20 will be used for the team, giveaways, & rewards. `,
                                     autoStart: true,
-                                    loop: true,
                                     deleteSpeed: 5,
                                     delay: 10
                                 }}
@@ -255,7 +253,7 @@ function App() {
                         }
                     </div>
                 </div>
-                <div className="col-md-4 col-sm-12 text-center">
+                <div className="col-md-3 col-sm-12 text-center">
                     <button 
                         className="mint-btn rubik-font"
                         disabled={claimingNft ? 1 : 0}
@@ -282,7 +280,6 @@ function App() {
                                 options={{
                                     strings: `Each SPOOKY SKELLY PUNK is unique and programmatically generated from over 200 possible traits, including headwear, mouth pieces, glasses, and more. All SPOOKY SKELLYS have abilities and traits that make some rarer than others. Every Spooky Skelly is unique and sick. These DEAD PUNKZ are stored as ERC-721 tokens on the Ethereum blockchain. Check out how rare your skelly is through rarity.tools. To Enter the members only area click on the “Members Only” link or the “Member” tab at the top of the page. You must be signed into you rmetamask wallet to enter the members club.`,
                                     autoStart: true,
-                                    loop: true,
                                     deleteSpeed: 5,
                                     delay: 10
                                 }}
@@ -293,11 +290,11 @@ function App() {
                 </div>
                 <div className="col-lg-3 col-md-4 col-sm-12 text-center">
 					<div className="row">
-						<div className="col-md-12 col-sm-6">
+						{/* <div className="col-md-12 col-sm-6">
 							<a href="#">
 								<img className="width-100 club-btn" src="./assets/images/rarity.png"></img>
 							</a>
-						</div>
+						</div> */}
 						<div className="col-md-12 col-sm-6">
 							<a href="#">
 								<img className="width-100 club-btn" src="./assets/images/club.png"></img>
@@ -312,18 +309,17 @@ function App() {
 			<div className="wow bounceInLeft">
 				<div className="title-font">ROADMAP</div>
 				<div className="content-font2">
-                    {
-                        scrollY > roadmapHeight && 
-                        <Typewriter
-                            options={{
-                                strings: `Our Roadmap catalogs a handful of future utilities and benefits we wish to bring our members as our community develops. Glance over the phases to see a few of the concepts we wish to bring to light and deliver as our project grows. We are constantly integrating new ideas and will evolve to meet the needs of our community to make sure we provide the top meta verse experience`,
-                                autoStart: true,
-                                loop: true,
-                                deleteSpeed: 5,
-                                delay: 10
-                            }}
-                        />
-                    }
+            {
+                scrollY > roadmapHeight && 
+                <Typewriter
+                    options={{
+                        strings: `Our Roadmap catalogs a handful of future utilities and benefits we wish to bring our members as our community develops. Glance over the phases to see a few of the concepts we wish to bring to light and deliver as our project grows. We are constantly integrating new ideas and will evolve to meet the needs of our community to make sure we provide the top meta verse experience`,
+                        autoStart: true,
+                        deleteSpeed: 5,
+                        delay: 10
+                    }}
+                />
+            }
 				</div>
 			</div>
             
@@ -502,7 +498,7 @@ function App() {
 				<div className="col-md-3 col-sm-6">
 					<img className="width-100 team-image" src="./assets/images/member4.jpg"/>
 					<div className="member-name">
-						steven
+						ace
 					</div>
                 </div>
             </div>
@@ -517,7 +513,6 @@ function App() {
                         options={{
                             strings: `Become a part of the community. join our discord for exclusive news, giveaways, fun games, and ask any questions about DEAD PUNKZ NFTS. `,
                             autoStart: true,
-                            loop: true,
                             deleteSpeed: 5,
                             delay: 10
                         }}
