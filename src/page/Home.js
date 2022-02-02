@@ -126,7 +126,7 @@ function App() {
     setRoadmapHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height());
     setCommunityHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height()+$(".roadmap-section").height()+$(".team-section").height()+250);
     // console.log("scroll--->", window.scrollY)
-    console.log('scroll event', $(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height());
+    // console.log('scroll event', $(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height());
   }
   
   useEffect(() => {
@@ -229,8 +229,8 @@ function App() {
                         }
                     </div>
                 </div>
-                <div className="col-md-3 col-sm-12">
-                    <img className="cat-gif width-100 wow bounceInRight" src="./assets/images/welcome.png"/>
+                <div className="col-md-3 col-sm-12 text-center">
+                    <img className="dead-punkz width-100 wow bounceInRight" src="./assets/images/welcome.png"/>
                 </div>
             </div>
         </section>
@@ -272,7 +272,7 @@ function App() {
         <section className="spec-section content-section  wow bounceInLeft">
             <div className="title-font">THE SPECS</div>
             <div className="row d-flex flex-center">
-                <div className="col-lg-9 col-md-8 col-sm-12">
+                <div className="col-lg-9 col-md-9 col-sm-12">
                     <div className="content-font2 specs-content-text">
                         {
                             scrollY > specsHeight && 
@@ -288,19 +288,16 @@ function App() {
                         
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 col-sm-12 text-center">
-					<div className="row">
+                <div className="col-lg-3 col-md-3 col-sm-12 text-center">
+					<button className="club-btn rubik-font">ENTER MEMBERS<br/>ONLY CLUB</button>
 						{/* <div className="col-md-12 col-sm-6">
-							<a href="#">
-								<img className="width-100 club-btn" src="./assets/images/rarity.png"></img>
-							</a>
+						<a href="#">
+							<img className="width-100 club-btn" src="./assets/images/rarity.png"></img>
+						</a>
 						</div> */}
-						<div className="col-md-12 col-sm-6">
-							<a href="#">
-								<img className="width-100 club-btn" src="./assets/images/club.png"></img>
-							</a>
-						</div>
-					</div>
+						{/* <a href="#">
+							<img className="club-btn" src="./assets/images/club.png"></img>
+						</a> */}
                 </div>
             </div>
         </section>
