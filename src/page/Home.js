@@ -125,8 +125,6 @@ function App() {
     setSpecsHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()-50);
     setRoadmapHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height());
     setCommunityHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height()+$(".roadmap-section").height()+$(".team-section").height()+250);
-    // console.log("scroll--->", window.scrollY)
-    // console.log('scroll event', $(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height());
   }
   
   useEffect(() => {
