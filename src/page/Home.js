@@ -332,9 +332,9 @@ function App() {
                   </h2>
                   <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      WELCOME TO DEAD PUNKZ.PRESALE &
-                      MINT DATE ANNOUNCED FOR THE
-                      SPOOKY SKELLY PUNKZ
+						WELCOME TO DEAD PUNKZ.PRESALE &
+						MINT DATE ANNOUNCED FOR THE
+						SPOOKY SKELLY PUNKZ
                     </div>
                   </div>
                 </div>
@@ -346,8 +346,8 @@ function App() {
                   </h2>
                   <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      ALL SPOOKY SKELLY PUNKS ARE
-                      REVEALED TO HOLDERS
+						ALL SPOOKY SKELLY PUNKS ARE
+						REVEALED TO HOLDERS
                     </div>
                   </div>
                 </div>
@@ -359,8 +359,8 @@ function App() {
                   </h2>
                   <div id="collapse3" className="accordion-collapse collapse rubik-font" aria-labelledby="heading3" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      1993 Vamp Punkz airdropped to 
-                      random Spooky Skelly Punk holders
+						1993 Vamp Punkz airdropped to 
+						random Spooky Skelly Punk holders
                     </div>
                   </div>
                 </div>
@@ -372,8 +372,8 @@ function App() {
                   </h2>
                   <div id="collapse4" className="accordion-collapse collapse rubik-font" aria-labelledby="heading4" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      Reveal of presale and mint date 
-                      for DEAD PUNK Zombies 
+						Reveal of presale and mint date 
+						for DEAD PUNK Zombies 
                     </div>
                   </div>
                 </div>
@@ -386,8 +386,8 @@ function App() {
                   </h2>
                   <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      777 Mummy Punkz airdropped to 
-                      random DEAD PUNK Zombies holders
+						777 Mummy Punkz airdropped to 
+						random DEAD PUNK Zombies holders
                     </div>
                   </div>
                 </div>
@@ -399,9 +399,9 @@ function App() {
                   </h2>
                   <div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      DeadPunkz™ official clothing line 
-                      release exclusively to DEAD PUNKZ 
-                      Holders
+						DeadPunkz™ official clothing line 
+						release exclusively to DEAD PUNKZ 
+						Holders
                     </div>
                   </div>
                 </div>
@@ -413,10 +413,10 @@ function App() {
                   </h2>
                   <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      Custom Dead Punk CREATOR, create 
-                      a DeadPunk and gain cool new 
-                      traits and additions to your Dead
-                      Punk
+						Custom Dead Punk CREATOR, create 
+						a DeadPunk and gain cool new 
+						traits and additions to your Dead
+						Punk
                     </div>
                   </div>
                 </div>
@@ -428,9 +428,9 @@ function App() {
                   </h2>
                   <div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      Exclusive Festival for all holders 
-                      of DeadPunkz, with concerts, food, 
-                      celebrity appearances and more
+						Exclusive Festival for all holders 
+						of DeadPunkz, with concerts, food, 
+						celebrity appearances and more
                     </div>
                   </div>
                 </div>
@@ -442,8 +442,8 @@ function App() {
                   </h2>
                   <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                      Reveal and first access the beta 
-                      to DeadPunkz game
+						Reveal and first access the beta 
+						to DeadPunkz game
                     </div>
                   </div>
                 </div>
@@ -455,12 +455,12 @@ function App() {
                   </h2>
                   <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-                    DeadPunkz meta verse, an undead 
-                      mirror to our own with passive income 
-                      potential, real estate and job 
-                      opportunities, along with immersive 
-                      aesthetics and exclusive holder 
-                      benefits. DEADVERSE games release.
+						DeadPunkz meta verse, an undead 
+						mirror to our own with passive income 
+						potential, real estate and job 
+						opportunities, along with immersive 
+						aesthetics and exclusive holder 
+						benefits. DEADVERSE games release.
                     </div>
                   </div>
                 </div>
@@ -513,7 +513,6 @@ function App() {
                         }}
                     />
                 }
-				
 			</div>
 			<div className="join-discord text-center">
 				<button className="discord-button rubik-font">
