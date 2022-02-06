@@ -25,6 +25,10 @@
     font-family: 'Rubik';
 }
 
+.font-black {
+    color: #000!important;
+}
+
 /*  my new css */
 body {
     background-color: #000;
@@ -216,6 +220,7 @@ nav {
     display: flex;
     align-items: center;
     margin-right: 30px;
+    margin-top: -8.5%;
 }
 
 .items {
@@ -223,8 +228,12 @@ nav {
     font-size: 40px;
     font-family: megrimfont;
     text-transform: uppercase;
-    color: red;
     cursor: pointer;
+    color: red;
+}
+
+.social-link-block {
+    display: none;
 }
 
 .menu-btn {
@@ -232,24 +241,19 @@ nav {
     position: absolute;
     right: 30px;
     top: 90px;
-    background-color: red;
-    border: none;
-    border-radius: 5px;
-    padding: 5px 10px;
+    text-decoration: none;
     color: #fff;
     font-family: rubik;
     font-size: 24px;
+    cursor: pointer;
 }
 
 .width-100 {
     width: 100%;
 }
 
-.menu-block {
-    padding-bottom: 30px;
-    position: absolute;
-    right: 0px;
-    top: 120px;
+.menu-title {
+    display: none;
 }
 
 .navbar-block {
@@ -377,6 +381,10 @@ nav {
 
 .team-image {
     padding: 10px;
+}
+
+.team-image-block {
+    justify-content: center;
 }
 
 .member-name {
@@ -526,7 +534,7 @@ nav {
 }
 
 .tab-content-title {
-    font-size: 65px;
+    font-size: 5vw;
     letter-spacing: -5px;
     color: #fff;
     margin-bottom: 40px;
@@ -538,10 +546,36 @@ nav {
     margin-bottom: 30px;
 }
 
+.tab-row {
+    display: flex;
+    flex-direction: column;
+}
+
 .go-back {
     position: absolute;
     top: 15px;
     left: 20px;
+}
+
+.member-title {
+    margin-top: 30px;
+}
+
+.member-content {
+    color: #fff;
+    font-size: 3.2vw;
+    padding-left: 20px;
+}
+
+.trait-image {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.member-page-footer {
+    margin-top: 60px;
+    color: #fff;
+    font-size: 1.2vw;
 }
 
 @media screen and (max-width: 1220px){
@@ -552,21 +586,44 @@ nav {
 }
 
 @media screen and (max-width: 1060px){
+    .menu-title {
+        color: #fff;
+        margin-top: 30px;
+        margin-left: 15px;
+        font-size: 4vw;
+        font-family: 'rubik';
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    .social-link-block {
+        display: block;
+    }
+
     .content-section {
         padding: 50px 60px 50px 60px;
     }
+
+    .top-icon-section {
+        display: none;
+    }
+
+    .social-link {
+        /* font-size: 5vw; */
+        margin-right: 5px;
+        color: #000;
+    }
+
     .list {
         flex-direction: column;
         height: auto;
     }
-    .items:nth-child(1){
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        margin-top: 50px;
-    }
+
     .items {
         width: 100%;
-        border-top: 1px solid rgba(255, 255, 255, 0.555);
-        text-align: center;
+        color: #000;
+        font-size: 6vw;
+        /* border-top: 1px solid rgba(255, 255, 255, 0.555); */
         margin-right: 0px;
         padding: 20px 0;
     }
@@ -574,13 +631,19 @@ nav {
         display: block;
     }
     .menu-block {
-        background-color: #000;
-        border: 1px solid #111;
+        width: 35%;
+        padding-bottom: 30px;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        background-color: red;
         right: 5px;
-        box-shadow: 1px 5px 10px #495057;
         border-radius: 5px;
         padding-bottom: 0;
         z-index: 10000;
+    }
+    .nav-item {
+        color: #000;
     }
     .list {
         float: none;
@@ -594,11 +657,15 @@ nav {
     }
 
     .content-font1 {
-        /* font-size: 14px; */
+        font-size: 1.8vw;
     }
     
     .content-font2 {
-        font-size: 11px;
+        font-size: 1.6vw;
+    }
+
+    .tab-content-paragraph {
+        font-size: 18px;
     }
 
     .welcome-font {
@@ -611,8 +678,57 @@ nav {
 }
 
 @media screen and (max-width: 768px){
+    .content-font1 {
+        font-size: 2.3vw;
+    }
+    
+    .content-font2 {
+        font-size: 2.1vw;
+    }
+
+    .utility-tab-block {
+        padding: 10px 40px 30px 40px;
+    }
+
+    .tab-row {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .tab-content {
+        margin-top: 15px;
+    }
+
+    .tab-content-title {
+        font-size: 6.5vw;
+    }
+
+    .tab-content-paragraph {
+        font-size: 16px;
+    }
+
+    .tab-item {
+        margin-bottom: 0;
+    }
+
+    .utility-content {
+        display: none;
+    }
+
     .dead-punkz, .mint-btn, .accordion, .club-btn {
         margin-top: 30px;
+    }
+
+    .menu-block {
+        width: 45%;
+    }
+
+    .items {
+        font-size: 8vw;
+    }
+
+    .title-font {
+        text-align: center;
     }
 
     .dead-punkz {
@@ -662,9 +778,25 @@ nav {
     .hero-block {
         margin: 0 50px 20px 50px;
     }
+
+    .member-content {
+        font-size: 3.5vw;
+    }
+
+    .member-page-footer {
+        font-size: 1.4vw;
+    }
 }
 
 @media screen and (max-width: 660px){
+    .utility-title, .member-title {
+        margin-top: 60px;
+    }
+
+    .member-page-footer {
+        font-size: 1.8vw;
+    }
+
     .content-section {
         padding: 60px 40px 60px 40px;
     }
@@ -674,9 +806,17 @@ nav {
     }
 }
 
+@media screen and (max-width: 576px){
+    .trait-image {
+        margin-top: 30px;
+        width: 30%;
+        border-radius: 10px;
+    }
+}
+
 @media screen and (max-width: 568px){
     .title-font {
-        font-size: 40px!important;
+        font-size: 42px!important;
     }
 
     .content-font1 {
@@ -703,6 +843,10 @@ nav {
 
     .accordion-button {
         font-size: 11px!important;
+    }
+
+    .tab-content-paragraph {
+        font-size: 14px;
     }
 
     .accordion-body {

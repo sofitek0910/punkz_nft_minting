@@ -165,15 +165,17 @@ function App() {
         </div>
         <div className="top-section">
             <div className="top-icon-block">
-                <a href="#">
-                    <img className="top-icon" src="./assets/images/discord_red.png"/>
-                </a>
-                <a href="#">
-                    <img className="top-icon" src="./assets/images/instagram_red.png"/>
-                </a>
-                <a href="#">
-                    <img className="top-icon" src="./assets/images/twitter_red.png"/>
-                </a>
+				<span className="top-icon-section">
+					<a href="#">
+						<img className="top-icon" src="./assets/images/discord_red.png"/>
+					</a>
+					<a href="#">
+						<img className="top-icon" src="./assets/images/instagram_red.png"/>
+					</a>
+					<a href="#">
+						<img className="top-icon" src="./assets/images/twitter_red.png"/>
+					</a>
+				</span>
                 {blockchain.account == null && blockchain.account == undefined ? 
                   <button className="connect-button megrim-font"
                       onClick={(e) => {
@@ -200,17 +202,29 @@ function App() {
                 <a href="/"><img className="logo-image" src="./assets/images/logo.png"/></a>
                 {(toggleMenu || screenWidth > 1060) && (
                     <div className="menu-block">
+						<div className="menu-title">MENU</div>
                         <ul className="list">
                             <li className="items"><a className="nav-item" href="#buy">Buy</a></li>
                             <li className="items"><a className="nav-item" href="#roadmap">Roadmap</a></li>
                             <li className="items"><a className="nav-item" href="#team">Team</a></li>
                             {/* <li className="items"><a href="#"></a>gallery</li> */}
                             <li className="items"><Link className="nav-item" to="/utility">utility</Link></li>
-                            <li className="items"><a href="#"></a>members</li>
+                            <li className="items"><a className="nav-item font-black" href="#"></a>members</li>
+							<li className="items social-link-block">
+								<a href="#">
+									<i className="fab fa-discord social-link"></i>
+								</a>
+								<a href="#">
+									<i className="fab fa-instagram social-link"></i>
+								</a>
+								<a href="#">
+									<i className="fab fa-twitter social-link"></i>
+								</a>
+							</li>
                         </ul>
                     </div>
                 )}
-                <button onClick={toggleNav} className="menu-btn">MENU</button>
+                <a onClick={toggleNav} className="menu-btn"><i className="fas fa-bars"></i></a>
             </nav>
         </header>
 
@@ -489,32 +503,38 @@ function App() {
 
 		<section id="team" className="spec-section team-section content-section wow rollIn">
             <div className="title-font">TEAM</div>
-            <div className="row d-flex flex-center">
-                <div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member1.jpg"/>
-					<div className="member-name">
-						coordinate
+			<div className="carousel-wrap">
+				<div className="owl-carousel owl-theme">
+					<div className="item">
+						<img className="width-100 team-image" src="./assets/images/member1.jpg"/>
+						<div className="member-name">
+							don <br/>
+							co founder & creative director
+						</div>
 					</div>
-                </div>
-				<div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member2.jpg"/>
-					<div className="member-name">
-						don
+					<div className="item">
+						<img className="width-100 team-image" src="./assets/images/member2.jpg"/>
+						<div className="member-name">
+							suamo<br/>
+							head developer
+						</div>
 					</div>
-                </div>
-				<div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member3.jpg"/>
-					<div className="member-name">
-						trill
+					<div className="item">
+						<img className="width-100 team-image" src="./assets/images/member3.jpg"/>
+						<div className="member-name">
+							trill <br/>
+							co founder & CFO
+						</div>
 					</div>
-                </div>
-				<div className="col-md-3 col-sm-6">
-					<img className="width-100 team-image" src="./assets/images/member4.jpg"/>
-					<div className="member-name">
-						ace
+					<div className="item">
+						<img className="width-100 team-image" src="./assets/images/member4.jpg"/>
+						<div className="member-name">
+							beany<br/>
+							marketing genius
+						</div>
 					</div>
-                </div>
-            </div>
+				</div>
+			</div>
         </section>
 
 		<section className="community-section content-section wow fadeInUp">

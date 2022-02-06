@@ -16,18 +16,19 @@
 
     <!-- Style Begin-->
     <link rel="stylesheet" href="./assets/plugins/bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/plugins/OwlCarousel2-2.3.4/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 
 <body>
-  <noscript>
-    You need to enable JavaScript to run this app.
-  </noscript>
   <div id="root"></div>
 </body>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script src="./assets/plugins/bootstrap-5.0.2-dist/js/bootstrap.min.js"></script>
+<script src="./assets/plugins/OwlCarousel2-2.3.4/dist/owl.carousel.min.js"></script>
 <!-- <script src="./assets/js/wow.js"></script> -->
 <script>
     $(function(){
@@ -62,6 +63,24 @@
             }
         });
     }
+</script>
+<script>
+    $('.owl-carousel').owlCarousel({
+            margin: 10,
+            nav: true,
+            navText:["<div class='nav-btn prev-slide'></div>","<div class='nav-btn next-slide'></div>"],
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 4
+                }
+            }
+        });
 </script>
 <!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 <script>
