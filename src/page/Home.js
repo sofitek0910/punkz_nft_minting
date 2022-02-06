@@ -166,13 +166,13 @@ function App() {
         <div className="top-section">
             <div className="top-icon-block">
 				<span className="top-icon-section">
-					<a href="#">
+					<a href="https://discord.gg/tNYhNG6X" target="_blank">
 						<img className="top-icon" src="./assets/images/discord_red.png"/>
 					</a>
-					<a href="#">
+					<a href="https://instagram.com/deadpunkznft?utm_medium=copy_link" target="_blank">
 						<img className="top-icon" src="./assets/images/instagram_red.png"/>
 					</a>
-					<a href="#">
+					<a href="https://mobile.twitter.com/deadpunkzNFT?s=20" target="_blank">
 						<img className="top-icon" src="./assets/images/twitter_red.png"/>
 					</a>
 				</span>
@@ -211,13 +211,13 @@ function App() {
                             <li className="items"><Link className="nav-item" to="/utility">utility</Link></li>
                             <li className="items"><a className="nav-item font-black" href="#"></a>members</li>
 							<li className="items social-link-block">
-								<a href="#">
+								<a href="https://discord.gg/tNYhNG6X" target="_blank">
 									<i className="fab fa-discord social-link"></i>
 								</a>
-								<a href="#">
+								<a href="https://instagram.com/deadpunkznft?utm_medium=copy_link" target="_blank">
 									<i className="fab fa-instagram social-link"></i>
 								</a>
-								<a href="#">
+								<a href="https://mobile.twitter.com/deadpunkzNFT?s=20" target="_blank">
 									<i className="fab fa-twitter social-link"></i>
 								</a>
 							</li>
@@ -583,16 +583,16 @@ function App() {
 				<div className="col-md-4 col-sm-12">
 					<div className="bottom-icon-section">
 						<div className="bottom-icon-block">
-							<a href="#">
+							<a href="https://discord.gg/tNYhNG6X" target="_blank">
 								<img className="top-icon" src="./assets/images/discord.png"/>
 							</a>
-							<a href="#">
+							<a href="https://instagram.com/deadpunkznft?utm_medium=copy_link" target="_blank">
 								<img className="top-icon" src="./assets/images/instagram.png"/>
 							</a>
-							<a href="#">
+							<a href="https://mobile.twitter.com/deadpunkzNFT?s=20" target="_blank">
 								<img className="top-icon" src="./assets/images/twitter.png"/>
 							</a>
-							<a href="#">
+							<a href="#" target="_blank">
 								<img className="top-icon" src="./assets/images/video.png"/>
 							</a>
 						</div>
