@@ -160,7 +160,9 @@ function App() {
         <div className="preloader">
             <div className="layer"></div>
             <div className="inner">
-            {/* <figure> <img src="./assets/images/preloader1.gif" alt="Image"/> </figure> */}
+				<figure>
+					<video className="landing-video" src="./assets/images/video.mp4" autoPlay muted loop></video>
+				</figure>
             <span>Site Loading</span> </div>
         </div>
         <div className="top-section">
