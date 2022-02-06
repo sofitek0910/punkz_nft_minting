@@ -19,10 +19,15 @@ function App() {
   const [feedback, setFeedback] = useState(`Click buy to mint your NFT.`);
   const [mintAmount, setMintAmount] = useState(1);
   const [welcomeHeight, setWelcomeHeight] = useState(0);
+  const [welcomeWritter, setWelcomeWritter] = useState(true);
   const [buyHeight, setBuyHeight] = useState(0);
+  const [buyWritter, setBuyWritter] = useState(true);
   const [specsHeight, setSpecsHeight] = useState(0);
+  const [specsWritter, setSpecsWritter] = useState(true);
   const [roadmapHeight, setRoadmapHeight] = useState(0);
+  const [roadmapWritter, setRoadmapWritter] = useState(true);
   const [communityHeight, setCommunityHeight] = useState(0);
+  const [communityWritter, setCommunityWritter] = useState(true);
   const [CONFIG, SET_CONFIG] = useState({
     CONTRACT_ADDRESS: "",
     SCAN_LINK: "",
@@ -125,7 +130,12 @@ function App() {
     setSpecsHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()-50);
     setRoadmapHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height());
     setCommunityHeight($(".top-section").height()+$(".navbar-block").height()+$(".hero-block").height()+$(".welcome-section").height()+$(".buy-section").height()+$(".spec-section").height()+$(".roadmap-section").height()+$(".team-section").height()+250);
-  }
+	scrollY > (welcomeHeight+1.5*window.innerHeight) && setWelcomeWritter(false);
+	scrollY > (buyHeight+1.5*window.innerHeight) && setBuyWritter(false);
+	scrollY > (specsHeight+1.5*window.innerHeight) && setSpecsWritter(false);
+	scrollY > (roadmapHeight+1.5*window.innerHeight) && setRoadmapWritter(false);
+	scrollY > (communityHeight+0.5*window.innerHeight) && setCommunityWritter(false);
+}
   
   useEffect(() => {
     const changeWidth = () => {
@@ -215,6 +225,7 @@ function App() {
                     </div>
                     <div className="content-font1 welcome-content">
                         {
+							welcomeWritter?
                             scrollY > welcomeHeight && 
                             <Typewriter
                                 options={{
@@ -223,7 +234,8 @@ function App() {
                                     deleteSpeed: 5,
                                     delay: 10
                                 }}
-                            />
+                            />:
+							<span>10,000 High-end, Unique, & Hand-Picked programmatically generated SPOOKY SKELLY PUNKS brought back to life and encrypted on the ERC-721 blockchain by the DEAD PUNKZ. A community that will blow every other out of the water.</span>
                         }
                     </div>
                 </div>
@@ -239,6 +251,7 @@ function App() {
                 <div className="col-md-9 col-sm-12 wid">
                     <div className="content-font1">
                         {
+							buyWritter?
                             scrollY > buyHeight && 
                             <Typewriter
                                 options={{
@@ -247,7 +260,8 @@ function App() {
                                     deleteSpeed: 5,
                                     delay: 10
                                 }}
-                            />
+                            />:
+							<span>Every SPOOKY SKELLY PUNK costs .1 eth.There will be a presale for whitelist members, and a public sale following a day after. There will be only 9,980 avialble, as 20 will be used for the team, giveaways, & rewards. </span>
                         }
                     </div>
                 </div>
@@ -273,6 +287,7 @@ function App() {
                 <div className="col-lg-9 col-md-9 col-sm-12">
                     <div className="content-font2 specs-content-text">
                         {
+							specsWritter?
                             scrollY > specsHeight && 
                             <Typewriter
                                 options={{
@@ -281,7 +296,8 @@ function App() {
                                     deleteSpeed: 5,
                                     delay: 10
                                 }}
-                            />
+                            />:
+							<span>Each SPOOKY SKELLY PUNK is unique and programmatically generated from over 200 possible traits, including headwear, mouth pieces, glasses, and more. All SPOOKY SKELLYS have abilities and traits that make some rarer than others. Every Spooky Skelly is unique and sick. These DEAD PUNKZ are stored as ERC-721 tokens on the Ethereum blockchain. Check out how rare your skelly is through rarity.tools. To Enter the members only area click on the “Members Only” link or the “Member” tab at the top of the page. You must be signed into you rmetamask wallet to enter the members club.</span>
                         }
                         
                     </div>
@@ -305,15 +321,17 @@ function App() {
 				<div className="title-font">ROADMAP</div>
 				<div className="content-font2">
             {
+				roadmapWritter?
                 scrollY > roadmapHeight && 
                 <Typewriter
                     options={{
-                        strings: `Our Roadmap catalogs a handful of future utilities and benefits we wish to bring our members as our community develops. Glance over the phases to see a few of the concepts we wish to bring to light and deliver as our project grows. We are constantly integrating new ideas and will evolve to meet the needs of our community to make sure we provide the top meta verse experience`,
+                        strings: `Our Roadmap catalogs a handful of future utilities and benefits we wish to bring our members as our community develops. Glance over the phases to see a few of the concepts we wish to bring to light and deliver as our project grows. We are constantly integrating new ideas and will evolve to meet the needs of our community to make sure we provide the top meta verse experience.`,
                         autoStart: true,
                         deleteSpeed: 5,
                         delay: 10
                     }}
-                />
+                />:
+				<span>Our Roadmap catalogs a handful of future utilities and benefits we wish to bring our members as our community develops. Glance over the phases to see a few of the concepts we wish to bring to light and deliver as our project grows. We are constantly integrating new ideas and will evolve to meet the needs of our community to make sure we provide the top meta verse experience.</span>
             }
 				</div>
 			</div>
@@ -455,12 +473,12 @@ function App() {
                   </h2>
                   <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
                     <div className="accordion-body rubik-font">
-						DeadPunkz meta verse, an undead 
-						mirror to our own with passive income 
-						potential, real estate and job 
-						opportunities, along with immersive 
-						aesthetics and exclusive holder 
-						benefits. DEADVERSE games release.
+                        DeadPunkz meta verse, an undead 
+                        mirror to our own with passive income 
+                        potential, real estate and job 
+                        opportunities, along with immersive 
+                        aesthetics and exclusive holder 
+                        benefits. DEADVERSE games release.
                     </div>
                   </div>
                 </div>
@@ -503,6 +521,7 @@ function App() {
             <div className="title-font">JOIN OUR COMMUNITY</div>
             <div className="content-font1">
                 {
+					communityWritter?
                     scrollY > communityHeight && 
                     <Typewriter
                         options={{
@@ -511,7 +530,8 @@ function App() {
                             deleteSpeed: 5,
                             delay: 10
                         }}
-                    />
+                    />:
+					<span>Become a part of the community. join our discord for exclusive news, giveaways, fun games, and ask any questions about DEAD PUNKZ NFTS.</span>
                 }
 			</div>
 			<div className="join-discord text-center">
