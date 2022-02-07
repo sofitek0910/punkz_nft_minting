@@ -164,8 +164,8 @@ function App() {
             <div className="inner">
 				<figure>
 					<video className="landing-video" src="./assets/images/video.mp4" autoPlay muted loop></video>
-				</figure>
-            <span>Site Loading</span> </div>
+				</figure> 
+			</div>
         </div>
         <div className="top-section">
             <div className="top-icon-block">
