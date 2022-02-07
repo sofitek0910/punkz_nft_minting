@@ -6,6 +6,8 @@ import { fetchData } from "../redux/data/dataActions";
 import swal from "sweetalert";
 import { Link } from 'react-router-dom'
 import Typewriter from "typewriter-effect";
+import "react-responsive-carousel/lib/styles/carousel.min.css";
+import { Carousel } from 'react-responsive-carousel';
 
 function App() {
   const dispatch = useDispatch();
@@ -505,35 +507,65 @@ function App() {
 
 		<section id="team" className="spec-section team-section content-section wow rollIn">
             <div className="title-font">TEAM</div>
-			<div className="carousel-wrap">
-				<div className="owl-carousel owl-theme">
-					<div className="item">
-						<img className="width-100 team-image" src="./assets/images/member1.jpg"/>
-						<div className="member-name">
-							don <br/>
-							co founder & creative director
-						</div>
+			<Carousel className="team-carousel">
+                <div>
+					<img className="width-100 team-image" src="./assets/images/member1.jpg"/>
+                    <div className="member-name">
+						don <br/>
+						co founder & creative director
 					</div>
-					<div className="item">
-						<img className="width-100 team-image" src="./assets/images/member2.jpg"/>
-						<div className="member-name">
-							suamo<br/>
-							head developer
-						</div>
+                </div>
+                <div>
+                    <img className="width-100 team-image" src="./assets/images/member2.jpg"/>
+                    <div className="member-name">
+						suamo<br/>
+						head developer
 					</div>
-					<div className="item">
-						<img className="width-100 team-image" src="./assets/images/member3.jpg"/>
-						<div className="member-name">
-							trill <br/>
-							co founder & CFO
-						</div>
+                </div>
+                <div>
+                    <img className="width-100 team-image" src="./assets/images/member3.jpg"/>
+					<div className="member-name">
+						trill <br/>
+						co founder & CFO
 					</div>
+                </div>
+				<div>
 					<div className="item">
 						<img className="width-100 team-image" src="./assets/images/member4.jpg"/>
 						<div className="member-name">
 							beany<br/>
 							marketing genius
 						</div>
+					</div>
+				</div>
+            </Carousel>
+			<div className="row team-image-block">
+				<div className="col-lg-3 col-md-6">
+					<img className="width-100 team-image" src="./assets/images/member1.jpg"/>
+					<div className="member-name">
+						don <br/>
+						co founder & creative director
+					</div>
+				</div>
+				<div className="col-lg-3 col-md-6">
+					<img className="width-100 team-image" src="./assets/images/member2.jpg"/>
+					<div className="member-name">
+						suamo<br/>
+						head developer
+					</div>
+				</div>
+				<div className="col-lg-3 col-md-6">
+					<img className="width-100 team-image" src="./assets/images/member3.jpg"/>
+					<div className="member-name">
+						trill <br/>
+						co founder & CFO
+					</div>
+				</div>
+				<div className="col-lg-3 col-md-6">
+					<img className="width-100 team-image" src="./assets/images/member4.jpg"/>
+					<div className="member-name">
+						beany<br/>
+						marketing genius
 					</div>
 				</div>
 			</div>

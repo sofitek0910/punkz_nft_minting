@@ -262,7 +262,7 @@ nav {
 }
 
 .hero-block {
-    margin: 0 100px 50px 100px;
+    margin: 0 50px 50px 50px;
 }
 
 .hero-image {
@@ -275,7 +275,7 @@ nav {
 }
 
 .content-section {
-    padding: 60px 100px 60px 100px;
+    padding: 60px 80px 60px 80px;
     border-bottom: 1px solid #111;
 }
 
@@ -383,8 +383,16 @@ nav {
     padding: 10px;
 }
 
-.team-image-block {
-    justify-content: center;
+.team-carousel {
+    display: none;
+}
+
+.carousel .thumbs {
+    display: none;
+}
+
+.carousel .control-dots {
+    display: none;
 }
 
 .member-name {
@@ -471,7 +479,7 @@ nav {
 }
 
 .bottom-section {
-    padding: 60px 40px 60px 100px;
+    padding: 60px 40px 60px 40px;
 }
 
 .bottom-icon-block {
@@ -601,7 +609,7 @@ nav {
     }
 
     .content-section {
-        padding: 50px 60px 50px 60px;
+        padding: 50px 40px 50px 40px;
     }
 
     .top-icon-section {
@@ -673,7 +681,7 @@ nav {
     }
 
     .hero-block {
-        margin: 0 70px 50px 70px;
+        margin: 0 40px 50px 40px;
     }
 }
 
@@ -688,6 +696,14 @@ nav {
 
     .utility-tab-block {
         padding: 10px 40px 30px 40px;
+    }
+
+    .team-image-block {
+        display: none
+    }
+
+    .team-carousel {
+        display: block;
     }
 
     .tab-row {
@@ -776,7 +792,7 @@ nav {
     }
     
     .hero-block {
-        margin: 0 50px 20px 50px;
+        margin: 0 20px 20px 20px;
     }
 
     .member-content {
@@ -798,7 +814,7 @@ nav {
     }
 
     .content-section {
-        padding: 60px 40px 60px 40px;
+        padding: 60px 20px 60px 20px;
     }
 
     .smart-contract {
@@ -838,7 +854,7 @@ nav {
 
 @media screen and (max-width: 505px){
     .content-section {
-        padding: 40px 20px 40px 20px;
+        padding: 40px 10px 40px 10px;
     }
 
     .accordion-button {
