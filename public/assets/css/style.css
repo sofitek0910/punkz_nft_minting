@@ -114,7 +114,7 @@ html {
     position: absolute;
     left: 0;
     top: 0;
-    background: url(../images/loading.gif);
+    background-color: #000;
     transition-delay: 0.3s;
   }
   .preloader .inner {

@@ -231,7 +231,7 @@ function App() {
         </header>
 
         <div className="hero-block">
-            <img className="hero-image wow rubberBand" src="./assets/images/hero.jpeg"/>
+            <img className="hero-image wow rubberBand" src="./assets/images/hero.gif"/>
         </div>
         <section className="welcome-section content-section">
             <div className="row d-flex flex-center">
