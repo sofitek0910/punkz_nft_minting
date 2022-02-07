@@ -364,7 +364,7 @@ function App() {
                       <button className="phase-btn">phase 1</button> initiation
                     </div>
                   </h2>
-                  <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                  <div id="collapseOne" className="accordion-collapse collapse" aria-labelledby="headingOne">
                     <div className="accordion-body rubik-font">
 						WELCOME TO DEAD PUNKZ.PRESALE &
 						MINT DATE ANNOUNCED FOR THE
@@ -378,7 +378,7 @@ function App() {
                       <button className="phase-btn">phase 2</button> reveal
                     </div>
                   </h2>
-                  <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                  <div id="collapseTwo" className="accordion-collapse collapse" aria-labelledby="headingTwo">
                     <div className="accordion-body rubik-font">
 						ALL SPOOKY SKELLY PUNKS ARE
 						REVEALED TO HOLDERS
@@ -391,7 +391,7 @@ function App() {
                       <button className="phase-btn">phase 3</button> vamp airdrops
                     </div>
                   </h2>
-                  <div id="collapse3" className="accordion-collapse collapse rubik-font" aria-labelledby="heading3" data-bs-parent="#accordionExample">
+                  <div id="collapse3" className="accordion-collapse collapse rubik-font" aria-labelledby="heading3">
                     <div className="accordion-body rubik-font">
 						1993 Vamp Punkz airdropped to 
 						random Spooky Skelly Punk holders
@@ -404,7 +404,7 @@ function App() {
                       <button className="phase-btn">phase 4</button> DEAD PUNKZ Z
                     </div>
                   </h2>
-                  <div id="collapse4" className="accordion-collapse collapse rubik-font" aria-labelledby="heading4" data-bs-parent="#accordionExample">
+                  <div id="collapse4" className="accordion-collapse collapse rubik-font" aria-labelledby="heading4">
                     <div className="accordion-body rubik-font">
 						Reveal of presale and mint date 
 						for DEAD PUNK Zombies 
@@ -418,7 +418,7 @@ function App() {
                       <button className="phase-btn">phase 5</button> mummy airdrops
                     </div>
                   </h2>
-                  <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5" data-bs-parent="#accordionExample">
+                  <div id="collapse5" className="accordion-collapse collapse" aria-labelledby="heading5">
                     <div className="accordion-body rubik-font">
 						777 Mummy Punkz airdropped to 
 						random DEAD PUNK Zombies holders
@@ -431,7 +431,7 @@ function App() {
                       <button className="phase-btn">phase 6</button> merch realease
                     </div>
                   </h2>
-                  <div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6" data-bs-parent="#accordionExample">
+                  <div id="collapse6" className="accordion-collapse collapse" aria-labelledby="heading6">
                     <div className="accordion-body rubik-font">
 						DeadPunkz™ official clothing line 
 						release exclusively to DEAD PUNKZ 
@@ -445,7 +445,7 @@ function App() {
                       <button className="phase-btn">phase 7</button> customization
                     </div>
                   </h2>
-                  <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7" data-bs-parent="#accordionExample">
+                  <div id="collapse7" className="accordion-collapse collapse" aria-labelledby="heading7">
                     <div className="accordion-body rubik-font">
 						Custom Dead Punk CREATOR, create 
 						a DeadPunk and gain cool new 
@@ -460,7 +460,7 @@ function App() {
                       <button className="phase-btn">phase 8</button> dead punkz festival
                     </div>
                   </h2>
-                  <div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8" data-bs-parent="#accordionExample">
+                  <div id="collapse8" className="accordion-collapse collapse" aria-labelledby="heading8">
                     <div className="accordion-body rubik-font">
 						Exclusive Festival for all holders 
 						of DeadPunkz, with concerts, food, 
@@ -474,7 +474,7 @@ function App() {
                       <button className="phase-btn">phase 9</button> deadverse beta
                     </div>
                   </h2>
-                  <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9" data-bs-parent="#accordionExample">
+                  <div id="collapse9" className="accordion-collapse collapse" aria-labelledby="heading9">
                     <div className="accordion-body rubik-font">
 						Reveal and first access the beta 
 						to DeadPunkz game
@@ -487,7 +487,7 @@ function App() {
                       <button className="phase-btn phase10">phase 10</button> deadverse
                     </div>
                   </h2>
-                  <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10" data-bs-parent="#accordionExample">
+                  <div id="collapse10" className="accordion-collapse collapse" aria-labelledby="heading10">
                     <div className="accordion-body rubik-font">
                         DeadPunkz meta verse, an undead 
                         mirror to our own with passive income 
